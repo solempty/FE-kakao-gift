@@ -20,6 +20,13 @@
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "linebreak-style": ["error", "unix"], // CRLF 문제 해결
     "arrow-parens": ["error", "always"], // 화살표 함수 괄호 문제 해결
-    "object-curly-newline": ["error", { "multiline": true, "consistent": true }]
+    "object-curly-newline": ["error", { "multiline": true, "consistent": true }] // 중괄호 사용 규칙
+    //"indent": ["error", 2] // 들여쓰기 규칙 <- prettier에서 설정함
+    //"quotes": ["error", "single"] // 따옴표 규칙 <- prettier에서 설정함
+    //"semi": ["error", "always"] // 세미 콜론 규칙
+    //"camelcase" : 변수와 함수의 이름을 캐멀 케이스로 강제 작성
+    //"no-unused-vars": 사용되지 않는 변수 허용하지 않음
+    //"no-console": 콘솔 사용 금지
+    //"arrow-parens": 화살표 함수의 매개변수가 하나일 때 괄호 강제 사용
   }
 }
