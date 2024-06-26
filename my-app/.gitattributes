@@ -1,0 +1,8 @@
+#Git에게 텍스트 파일을 자동으로 감지하고 LF 줄 끝 문자를 사용하도록 지시
+* text=auto
+*.css     text eol=lf
+*.html    text eol=lf
+*.json    text eol=lf
+*.md      text eol=lf
+*.tsx     text eol=lf
+*.ts      text eol=lf
