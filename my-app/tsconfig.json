@@ -19,13 +19,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react"
   },
   "include": [
     "src"
   ],
   "baseUrl": "./", // 기본 경로 설정
   "paths": { //절대 경로를 지정하고 싶은 경로들을 지정
-    "@/*": ["*"]
+    "reset-css": ["types/reset-css"]
   }
 }

@@ -1,19 +1,23 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from 'react-dom';
+import { Global, css } from '@emotion/react';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-root.render(
-  <React.StrictMode>
+import reset from 'reset-css';
+
+ReactDOM.render(
+  <>
+    <Global
+      styles={css`
+        ${reset}
+        /* 추가적인 전역 스타일 작성 */
+        body {
+          font-family: 'Arial', sans-serif;
+          background-color: #f0f0f0;
+        }
+      `}
+    />
     <App />
-  </React.StrictMode>
+  </>,
+  document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
