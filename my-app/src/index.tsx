@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Global, css } from '@emotion/react';
-import App from './App'; // 파일 경로는 실제 위치에 맞게 수정
+import App from './App';
 
 import reset from 'reset-css';
 

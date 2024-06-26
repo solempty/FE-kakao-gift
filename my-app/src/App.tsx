@@ -1,7 +1,5 @@
-// src/App.tsx
-
 import React from 'react';
-import './App.css'; // 필요에 따라 App.css 파일도 같이 복사
+import './App.css';
 
 function App() {
   return (
