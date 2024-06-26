@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb/hooks"
+  ],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off", // React 17+에서는 불필요
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "linebreak-style": ["error", "unix"], // CRLF 문제 해결
+    "arrow-parens": ["error", "always"], // 화살표 함수 괄호 문제 해결
+    "object-curly-newline": ["error", { "multiline": true, "consistent": true }]
+  }
+}
