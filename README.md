@@ -19,7 +19,7 @@ Pull Request 제목과 내용은 아래와 같이 작성 해주세요.
 - [x] 절대 경로로 import 가능하게 alias 설정
 - [x] tsconfig 구성 항복 살펴보고 설정
 - [x] ESLint, Prettier 추가 (eslint-config-airbnb 적용)
-- [x] emotion 스타일 라이브러리 추가, react css 적용
+- [x] emotion 스타일 라이브러리 추가, reset css 적용
 - [ ] gitignore 추가하고, 프로젝트에 불필요한 코드 정리
 
 > - 코드 작성하면서 어려웠던 점
