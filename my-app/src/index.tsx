@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Global, css } from '@emotion/react';
-import App from './App';
+import App from './components/App';
 
 import reset from 'reset-css';
 
