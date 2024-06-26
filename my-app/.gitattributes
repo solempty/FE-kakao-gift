@@ -1,0 +1,6 @@
+# 자동으로 마지막 라인을 LF로 변환
+# 크로스 플랫폼 개발 환경에서 작업하는 경우 LF로 통일 권장
+* text=auto
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
