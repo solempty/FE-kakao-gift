@@ -8,7 +8,7 @@ Pull Request 제목과 내용은 아래와 같이 작성 해주세요.
 
 **할 일 목록:**
 
-- [ ] Create React App을 기반으로 프로젝트 생성
+- [x] Create React App을 기반으로 프로젝트 생성
 - [ ] Typescript로 동작되게 세팅
 - [ ] 절대 경로로 import 가능하게 alias 설정
 - [ ] tsconfig 구성 항복 살펴보고 설정
